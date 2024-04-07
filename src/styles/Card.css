@@ -1,12 +1,59 @@
 .card {
-    height: 12em;
-    border-radius: 10px;
-    background-color: grey;
     display: flex;
     flex-direction: column;
-    width: 8em;
+    width: 13em;    
+    border: 1px grey solid;
+    color: white;
+}
+.card-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.card li {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.buttons {
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.precio {
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 img {
     height: 100%;
+}
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.ver-mas {
+    background-color: #338b00;;
+}
+.añadir {
+    background-color: red;
 }
